@@ -67,6 +67,9 @@ test = [
   "pytest-subtests",
   "scipy>=1.14", # Changes in sparse array representation.
 ]
+generative = [
+  "torch>=2.0.0",  # Required for generative models (diffusion)
+]
 
 [project.urls]
 homepage = "https://github.com/GAA-UAM/scikit-fda"
